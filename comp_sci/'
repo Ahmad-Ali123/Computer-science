@@ -1,0 +1,51 @@
+# Test corrections number 2
+
+# Conditional inside of a loop 
+
+This question displays the following code segment 
+
+index <-- 1
+
+sum <-- 0
+
+REPEAT UNTIL (index > 10)
+
+{
+  if (index MOD 3 = 0)
+     
+[
+   sum <-- sum + index
+     
+{
+  index <-- index + 2
+[
+
+
+DISPLAY sum 
+
+This question falls under the Algorithms and Programing section
+
+The answers to this promblem were 
+
+3
+
+9
+
+12
+
+55
+
+I answered that after the code segment is excuted it would return 3 this is incorrect because index starts at 1 and the condition is that we add 2 to index every time it's not greater than 10. since the index adds up by 2 this proccess will be repeated 5 times nd index will become 11. Now since the condition has been met we move onto to the next thing 
+
+if (index MOD 3 = 0)
+
+this checks if any of the numbers in index were a multiple of 3. 3 and 9 are the only multiples so this condition becomes true after that we move down to 
+
+sum <-- sum + index 
+
+now we add both 3 and 9 to sum which is equal to zero so we get 12 which is the correct answer. 
+
+as to no get this wrong again ill make sure to pay closer attention to what the problem is asking and to the code being displayed. and ill make sure to study more.
+
+# Sum of Dice
+
